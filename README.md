@@ -8,4 +8,4 @@ Just use to display 360° image. That use opengl es to draw image. You can use f
 
 # License
 
-See the [LICENSE](https://github.com/SimKing/SJPanorama/LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/SimKing/SJPanorama/blob/master/License.md) file for license rights and limitations (MIT).
