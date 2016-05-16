@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23020D211CE493D600D33D2F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23020D201CE493D600D33D2F /* CoreMotion.framework */; };
+		23020D231CE49F7C00D33D2F /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 23020D221CE49F7C00D33D2F /* Minus.png */; };
+		23020D251CE4A08100D33D2F /* minack-panorama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23020D241CE4A08100D33D2F /* minack-panorama.jpg */; };
+		2316B2151CE21F4800DEDBCB /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 2316B2141CE21F4800DEDBCB /* GLProgram.m */; };
+		2316B21C1CE23B7800DEDBCB /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2316B21A1CE23B7800DEDBCB /* Shader.fsh */; };
+		2316B21D1CE23B7800DEDBCB /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2316B21B1CE23B7800DEDBCB /* Shader.vsh */; };
+		23A36DA51CE1FE8300F7F393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A36DA41CE1FE8300F7F393 /* main.m */; };
+		23A36DA81CE1FE8300F7F393 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A36DA71CE1FE8300F7F393 /* AppDelegate.m */; };
+		23A36DAB1CE1FE8300F7F393 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A36DAA1CE1FE8300F7F393 /* ViewController.m */; };
+		23A36DAE1CE1FE8300F7F393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A36DAC1CE1FE8300F7F393 /* Main.storyboard */; };
+		23A36DB01CE1FE8300F7F393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A36DAF1CE1FE8300F7F393 /* Assets.xcassets */; };
+		23A36DB31CE1FE8300F7F393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A36DB11CE1FE8300F7F393 /* LaunchScreen.storyboard */; };
+		23A36DBC1CE1FEEA00F7F393 /* ParanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A36DBB1CE1FEEA00F7F393 /* ParanoramaViewController.m */; };
+		23A36DBE1CE1FEF700F7F393 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A36DBD1CE1FEF700F7F393 /* GLKit.framework */; };
+		23A36DC31CE1FF0600F7F393 /* park_2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A36DC01CE1FF0600F7F393 /* park_2048.jpg */; };
+		23A36DC41CE1FF0600F7F393 /* street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A36DC11CE1FF0600F7F393 /* street.jpg */; };
+		23A36DC61CE1FF0D00F7F393 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A36DC51CE1FF0D00F7F393 /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23020D201CE493D600D33D2F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		23020D221CE49F7C00D33D2F /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		23020D241CE4A08100D33D2F /* minack-panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "minack-panorama.jpg"; sourceTree = "<group>"; };
+		2316B2131CE21F4800DEDBCB /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		2316B2141CE21F4800DEDBCB /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		2316B21A1CE23B7800DEDBCB /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2316B21B1CE23B7800DEDBCB /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		23A36DA01CE1FE8300F7F393 /* SJPanorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJPanorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A36DA41CE1FE8300F7F393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23A36DA61CE1FE8300F7F393 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23A36DA71CE1FE8300F7F393 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23A36DA91CE1FE8300F7F393 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23A36DAA1CE1FE8300F7F393 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23A36DAD1CE1FE8300F7F393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23A36DAF1CE1FE8300F7F393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23A36DB21CE1FE8300F7F393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23A36DB41CE1FE8300F7F393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A36DBA1CE1FEEA00F7F393 /* ParanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParanoramaViewController.h; sourceTree = "<group>"; };
+		23A36DBB1CE1FEEA00F7F393 /* ParanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParanoramaViewController.m; sourceTree = "<group>"; };
+		23A36DBD1CE1FEF700F7F393 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		23A36DC01CE1FF0600F7F393 /* park_2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = park_2048.jpg; sourceTree = "<group>"; };
+		23A36DC11CE1FF0600F7F393 /* street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = street.jpg; sourceTree = "<group>"; };
+		23A36DC51CE1FF0D00F7F393 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23A36D9D1CE1FE8300F7F393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23020D211CE493D600D33D2F /* CoreMotion.framework in Frameworks */,
+				23A36DC61CE1FF0D00F7F393 /* OpenGLES.framework in Frameworks */,
+				23A36DBE1CE1FEF700F7F393 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23A36D971CE1FE8300F7F393 = {
+			isa = PBXGroup;
+			children = (
+				23020D201CE493D600D33D2F /* CoreMotion.framework */,
+				23A36DC51CE1FF0D00F7F393 /* OpenGLES.framework */,
+				23A36DBD1CE1FEF700F7F393 /* GLKit.framework */,
+				23A36DA21CE1FE8300F7F393 /* SJPanorama */,
+				23A36DA11CE1FE8300F7F393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23A36DA11CE1FE8300F7F393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23A36DA01CE1FE8300F7F393 /* SJPanorama.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23A36DA21CE1FE8300F7F393 /* SJPanorama */ = {
+			isa = PBXGroup;
+			children = (
+				23A36DA61CE1FE8300F7F393 /* AppDelegate.h */,
+				23A36DA71CE1FE8300F7F393 /* AppDelegate.m */,
+				23A36DA91CE1FE8300F7F393 /* ViewController.h */,
+				23A36DAA1CE1FE8300F7F393 /* ViewController.m */,
+				23A36DBA1CE1FEEA00F7F393 /* ParanoramaViewController.h */,
+				23A36DBB1CE1FEEA00F7F393 /* ParanoramaViewController.m */,
+				2316B2131CE21F4800DEDBCB /* GLProgram.h */,
+				2316B2141CE21F4800DEDBCB /* GLProgram.m */,
+				2316B21A1CE23B7800DEDBCB /* Shader.fsh */,
+				2316B21B1CE23B7800DEDBCB /* Shader.vsh */,
+				23A36DAC1CE1FE8300F7F393 /* Main.storyboard */,
+				23020D221CE49F7C00D33D2F /* Minus.png */,
+				23020D241CE4A08100D33D2F /* minack-panorama.jpg */,
+				23A36DC01CE1FF0600F7F393 /* park_2048.jpg */,
+				23A36DC11CE1FF0600F7F393 /* street.jpg */,
+				23A36DAF1CE1FE8300F7F393 /* Assets.xcassets */,
+				23A36DB11CE1FE8300F7F393 /* LaunchScreen.storyboard */,
+				23A36DB41CE1FE8300F7F393 /* Info.plist */,
+				23A36DA31CE1FE8300F7F393 /* Supporting Files */,
+			);
+			path = SJPanorama;
+			sourceTree = "<group>";
+		};
+		23A36DA31CE1FE8300F7F393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23A36DA41CE1FE8300F7F393 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23A36D9F1CE1FE8300F7F393 /* SJPanorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A36DB71CE1FE8300F7F393 /* Build configuration list for PBXNativeTarget "SJPanorama" */;
+			buildPhases = (
+				23A36D9C1CE1FE8300F7F393 /* Sources */,
+				23A36D9D1CE1FE8300F7F393 /* Frameworks */,
+				23A36D9E1CE1FE8300F7F393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJPanorama;
+			productName = SJPanorama;
+			productReference = 23A36DA01CE1FE8300F7F393 /* SJPanorama.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23A36D981CE1FE8300F7F393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sim Jin";
+				TargetAttributes = {
+					23A36D9F1CE1FE8300F7F393 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23A36D9B1CE1FE8300F7F393 /* Build configuration list for PBXProject "SJPanorama" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23A36D971CE1FE8300F7F393;
+			productRefGroup = 23A36DA11CE1FE8300F7F393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23A36D9F1CE1FE8300F7F393 /* SJPanorama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23A36D9E1CE1FE8300F7F393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23020D231CE49F7C00D33D2F /* Minus.png in Resources */,
+				2316B21D1CE23B7800DEDBCB /* Shader.vsh in Resources */,
+				23A36DB31CE1FE8300F7F393 /* LaunchScreen.storyboard in Resources */,
+				23A36DC31CE1FF0600F7F393 /* park_2048.jpg in Resources */,
+				23A36DB01CE1FE8300F7F393 /* Assets.xcassets in Resources */,
+				23020D251CE4A08100D33D2F /* minack-panorama.jpg in Resources */,
+				23A36DC41CE1FF0600F7F393 /* street.jpg in Resources */,
+				2316B21C1CE23B7800DEDBCB /* Shader.fsh in Resources */,
+				23A36DAE1CE1FE8300F7F393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23A36D9C1CE1FE8300F7F393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A36DAB1CE1FE8300F7F393 /* ViewController.m in Sources */,
+				23A36DA81CE1FE8300F7F393 /* AppDelegate.m in Sources */,
+				23A36DBC1CE1FEEA00F7F393 /* ParanoramaViewController.m in Sources */,
+				23A36DA51CE1FE8300F7F393 /* main.m in Sources */,
+				2316B2151CE21F4800DEDBCB /* GLProgram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23A36DAC1CE1FE8300F7F393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A36DAD1CE1FE8300F7F393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23A36DB11CE1FE8300F7F393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A36DB21CE1FE8300F7F393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23A36DB51CE1FE8300F7F393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23A36DB61CE1FE8300F7F393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23A36DB81CE1FE8300F7F393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SJPanorama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.sj.SJPanorama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23A36DB91CE1FE8300F7F393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SJPanorama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.sj.SJPanorama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23A36D9B1CE1FE8300F7F393 /* Build configuration list for PBXProject "SJPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A36DB51CE1FE8300F7F393 /* Debug */,
+				23A36DB61CE1FE8300F7F393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23A36DB71CE1FE8300F7F393 /* Build configuration list for PBXNativeTarget "SJPanorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23A36DB81CE1FE8300F7F393 /* Debug */,
+				23A36DB91CE1FE8300F7F393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23A36D981CE1FE8300F7F393 /* Project object */;
+}
